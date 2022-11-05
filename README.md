@@ -100,7 +100,7 @@ Returns the public suffix of this hostname. The public suffix is the shortest do
 
 For example: `www.example.com` and `www.subdomain.example.com` both have public suffix `example.com`.
 
-For further information, see the [Public Suffix List](http://publicsuffix.org/). This module derives its list from that site. This call is a wrapper around [`psl`](https://www.npmjs.com/package/psl)'s [`get` method](https://www.npmjs.com/package/psl##pslgetdomain).
+For further information, see the [Public Suffix List](http://publicsuffix.org/). This module derives its list from that site. This call is a wrapper around [`tldts`](https://www.npmjs.com/package/tldts)'s [`getDomain` method](https://www.npmjs.com/package/tldts).
 
 #### `cookieCompare(a, b)`
 
